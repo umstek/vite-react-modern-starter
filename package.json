@@ -25,7 +25,7 @@
     "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
     "vite": "^6.0.0",
-    "vitest": "^2.1.5"
+    "vitest": "^4.0.0"
   },
   "trustedDependencies": ["@biomejs/biome", "@swc/core", "esbuild"]
 }
