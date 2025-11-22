@@ -4,15 +4,11 @@
     "enabled": true,
     "indentStyle": "space"
   },
-  "organizeImports": {
-    "enabled": true
-  },
   "linter": {
     "enabled": true,
     "rules": {
       "recommended": true,
       "correctness": {
-        "noNewSymbol": "error",
         "noUndeclaredVariables": "error",
         "noUnusedVariables": "error",
         "useHookAtTopLevel": "error"
@@ -22,21 +18,18 @@
       },
       "suspicious": {
         "noEmptyBlockStatements": "error"
-      },
-      "nursery": {
-        "useSortedClasses": {
-          "level": "warn",
-          "options": {
-            "attributes": ["class", "className"],
-            "functions": ["cn", "cx", "clsx"]
-          }
-        }
       }
     }
   },
   "javascript": {
     "formatter": {
       "quoteStyle": "single"
+    }
+  },
+  "css": {
+    "parser": {
+      "cssModules": false,
+      "tailwindDirectives": true
     }
   },
   "vcs": {
