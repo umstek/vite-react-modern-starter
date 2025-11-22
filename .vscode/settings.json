@@ -1,6 +1,3 @@
 {
-  "conventionalCommits.scopes": [
-    "project",
-    "deps"
-  ]
+  "conventionalCommits.scopes": ["project", "deps"]
 }
